@@ -23,7 +23,8 @@ module.exports = {
     watch: true,
     env: {
       PORT: 3001,
-      NODE_ENV: 'development'
+      NODE_ENV: 'development',
+      DB_URL: '[FILL_ME - eg. mongodb://user:pass@domain/db]'
     }
   }, {
     name: 'Mailing Service',
